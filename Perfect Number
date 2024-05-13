@@ -1,0 +1,21 @@
+class Solution {
+    int isPerfect(int N) {
+        int s, x = 0,r;
+        int temp = N;
+        while(N!=0){
+            r = N%10;
+            s = 1;
+            for(int i=1;i<=r;i++){
+                s=s*i;
+            }
+            x+=s;
+            N/=10;
+        }
+        if(x == temp){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    }
+}
