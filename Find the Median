@@ -1,0 +1,16 @@
+//Java Code
+
+class Solution
+{
+    public int find_median(int[] v)
+    {
+        int l=v.length;
+        Arrays.sort(v);
+        if(l%2==0){
+            return (v[(l/2)-1]+v[(l/2)])/2;
+        }
+        else{
+            return v[l/2];
+        }
+    }
+}
