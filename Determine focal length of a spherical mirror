@@ -1,0 +1,7 @@
+import math
+class Solution:
+	def findFocalLength(self, R, type):
+	    if type=="concave":
+	        return math.floor(R/2)
+	    else:
+	        return math.floor(-R/2)
