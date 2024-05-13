@@ -1,0 +1,9 @@
+import math
+class Solution:
+	def find_sum(self, n):
+	    t = n*(n+1)//2
+	    mid = math.ceil(n/2)
+	    half = (t-mid)//2
+	    if(n%2==1):
+	        return half+mid, half
+	    return half,half+mid
