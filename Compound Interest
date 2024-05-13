@@ -1,0 +1,6 @@
+class Solution:
+    def getCompundInterest(self, P ,T , N , R):
+        # code here
+        x = P*((1 + R/(N*100)) **(N*T)
+        return int(x)
+
