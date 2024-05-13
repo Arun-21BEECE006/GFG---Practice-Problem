@@ -1,0 +1,7 @@
+class Solution:
+    def sort(self, s):
+        l = []
+        for i in s:
+            l.append(i)
+        l.sort()
+        return "".join(l)
