@@ -1,0 +1,3 @@
+class Solution:
+    def oppositeFaceOfDice(self, N):
+    	return 7-N
