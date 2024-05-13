@@ -1,0 +1,7 @@
+class Solution:
+
+	def maxProduct(self,arr, n):
+		m1 = max(arr)
+		arr.remove(m1)
+		m2 = max(arr)
+		return m1*m2
