@@ -1,0 +1,6 @@
+class Solution {
+  public:
+    long long seriesSum(int n) {
+        return (unsigned long long int)n*(n+1)/2;
+    }
+};
