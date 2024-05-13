@@ -1,0 +1,11 @@
+class Solution{
+    static int clockSum(int num1, int num2){
+        int sum = num1 + num2;
+        if(sum < 12){
+            return sum;
+        }
+        else{
+            return sum%12;
+        }
+    }
+}
