@@ -1,0 +1,14 @@
+class Solution:
+    def alternateSort(self,arr, N):
+        # Your code goes here
+        l = [];
+        x = 0
+        arr.sort()
+        for i in range(N):
+            if(i%2==0):
+                l.append(arr[N-1])
+                N-=1
+            else:
+                l.append(arr[x])
+                x+=1
+        return l
