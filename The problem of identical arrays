@@ -1,0 +1,8 @@
+def check (arr,  brr, n) : 
+    #Complete the function
+    arr.sort()
+    brr.sort()
+    if arr==brr:
+        return 1
+    else:
+        return 0
